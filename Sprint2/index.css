@@ -1,6 +1,7 @@
 body{
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(90deg, rgb(84, 130, 255), rgb(150, 255, 134));
 }
 .container{
     display: flex;
@@ -21,7 +22,7 @@ body{
     height: fit-content;
     padding: 3px 5px;
     border-radius: 10px;
-    background-color: orange;
+    background-color: white;
     box-shadow:
     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -36,7 +37,7 @@ body{
 }
 .data-field{
     display: flex;
-    background-color: aliceblue;
+    background: linear-gradient(90deg, rgb(84, 130, 255), rgb(150, 255, 134)); ;
 }
 .data-field div {
     width: 150px;
@@ -51,7 +52,7 @@ body{
 #nav-bar-button{
     margin-right: 10px;
     font-size: 30px;
-    color: orange;
+    color: white;
     position: relative;
     z-index: 2;
     cursor: pointer;
