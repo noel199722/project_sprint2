@@ -7,7 +7,6 @@ id,name,description,assignedto,duedate,status
 7,aaaaaa,aaaaaa,aaaaaa,2021-08-25,aaaaaa
 8,aaaaaa,aaaaaa,aaaaaa,2021-08-26,aaaaaa
 9,aaaa,aaaa,aaaa,2021-08-25,aaaaaaaa
-10,returnedWord,returnedWord,returnedWord,2021-08-25,abcdefg
 11,aaa,aaa,aaa,2021-08-26,aaa⍪aaa
 12,Ben,NANANA,aaa,2021-02-02,pending
 13,Ben,Learning HTML,Class-C02,2021-07-01,confirmed

@@ -44,6 +44,7 @@ async function showData() {
             <div class="status">${dataArr[i].status}</div>
             <button class="button update" id="${dataArr[i].id}">UPDATE</button>
             <button class="button delete" id="${dataArr[i].id}">DELETE</button>
+            <hr class="rounded">
             </div>
         </form>
         `
