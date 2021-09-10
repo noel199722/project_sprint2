@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gabriola", Times, serif;
+    font-size: 15px;
+}
+
+body{
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+header{
+    height: 20vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+h1 {
+       font-size: 40px;
+    }
+
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input, button {
+        border: none;
+        padding: 0.25rem;
+        font-size: 30px;
+        margin: 0.1rem
+    }
+
+    input[type="date"] {
+        width: 50px;
+        text-align: center;
+    }
+
+button{
+    cursor: pointer;
+}

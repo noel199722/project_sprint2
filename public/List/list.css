@@ -1,0 +1,144 @@
+ /* Style the navigation bar */
+ .navbar {
+  width: 100%;
+  background: linear-gradient( 102.7deg, #fddaff 8.2%, #dfadfc 19.6%, #adcdfc 36.8%, #adfcf4 73.2%, #caf8d0 90.9%);
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color:palevioletred;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: plum;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+} /* Include the padding and border in an element's total width and height */
+* {
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 
+  }
+  
+  
+
+body{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient( 102.7deg, #fddaff 8.2%, #dfadfc 19.6%, #adcdfc 36.8%, #adfcf4 73.2%, #caf8d0 90.9%);
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    display: flex;
+    flex-direction:column;
+}
+.menu{
+    display: flex;
+}
+.nav-bar{
+    margin-right: 10px;
+    width: 100px;
+    transition: 0.3s ease-in-out;
+    position: relative;
+}
+
+
+.main-body{
+    width: 100%;
+    transition: 0.3s ease-in-out;
+    position: relative;
+    
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    width:fit-content;
+    height:fit-content;
+    padding: 3px 50px;
+    border-radius: 5px;
+    background: linear-gradient( 102.7deg, #fddaff 8.2%, #dfadfc 19.6%, #adcdfc 36.8%, #adfcf4 73.2%, #caf8d0 90.9%);
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+    margin-top: 1px;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+
+
+.data-field{
+    display: flex;
+    background: whitesmoke;
+    text-align: center;
+    display: flex;
+    margin-top: 8px;
+}
+.data-field div {
+    width: 100px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+#data-form{
+    display: none;
+    flex-direction: column;
+    width: 300px;
+}
+
+#nav-bar-button{
+    margin-right: 10px;
+    font-size: 30px;
+    color: black;
+    position:relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 680px){
+  
+.data-field{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+}
+
+.displayDataArea{
+  font-size: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+
+#data-heading{
+  display: none;
+}
+}
